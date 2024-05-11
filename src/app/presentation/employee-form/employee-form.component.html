@@ -1,0 +1,9 @@
+<form [formGroup]="employee">
+    <label>Nombre</label>
+    <input type="text" formControlName="name">
+    <label>Edad</label>
+    <input type="number" formControlName="age">
+    <label>Salario</label>
+    <input type="number" formControlName="salary">
+    <button type="button" (click)="onSend()" class="primary-color">Enviar</button>
+</form>
